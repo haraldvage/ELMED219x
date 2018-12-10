@@ -5,7 +5,7 @@ This is the course repository for [ELMED219: Introduction to Computational Medic
 
 Here you'll find code and documentation for the course [ELMED219](https://www.uib.no/emne/ELMED219) at UiB. The course Canvas has more information.
 
-To get started, go to [Set up your computer](setup.md). 
+**Go to [Set up your computer](setup.md) to get started.**
 
 
 ## Table Of Contents
