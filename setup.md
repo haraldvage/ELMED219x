@@ -12,7 +12,7 @@ The code for the course is hosted on the code sharing platform GitHub (where you
 ## Kaggle
 [Kaggle](https://www.kaggle.com) is an online community of data scientists hosting a large collection of data sets and data science competitions. It's the source for several of the data sets used in the course. The course project will be hosted on Kaggle. Create an account here: https://www.kaggle.com. 
 
-## Get ready for the course
+## Install and test the course environment
 
 After you've made sure that Anaconda and Git are installed, go through the following steps: 
 ### Download the repository: 
