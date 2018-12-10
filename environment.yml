@@ -5,6 +5,7 @@ dependencies:
 - ipython
 - ipywidgets
 - jupyter
+- git
 - numpy
 - matplotlib
 - pandas

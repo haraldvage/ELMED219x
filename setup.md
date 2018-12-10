@@ -6,9 +6,7 @@ We recommend that you install Python using the [Anaconda Distribution](https://w
 
 After installation, run `python --version` in a terminal (in the "Anaconda Prompt" if you're on Windows). If the output contains "Python 3.7" and "Anaconda" you should be all set for the next steps.
 
-## Git and GitHub
-You'll also need to install [Git](https://git-scm.com/downloads), a version control system. Follow the instructions for Linux, Mac or Windows here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. 
-
+## GitHub
 The code for the course is hosted on the code sharing platform GitHub (where you're reading this). If you haven't already signed up for a GitHub account please do so now. We also recommend using the platform for your own projects throughout the course. https://github.com/join.
 
 ## Kaggle
