@@ -13,6 +13,7 @@ dependencies:
 - ipykernel
 - conda-forge::jupyter_contrib_nbextensions
 - conda-forge::jupyterlab
+- conda-forge::statsmodels
 - scipy
 - seaborn
 - pip:
@@ -23,3 +24,5 @@ dependencies:
   - graphviz
   - pandas-profiling
   - xlrd
+  - nibabel
+  - nilearn
