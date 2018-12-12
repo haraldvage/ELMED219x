@@ -14,7 +14,7 @@ The code for the course is hosted on the code sharing platform GitHub (where you
 
 ## Install and test the course environment
 
-After you've made sure that Anaconda and Git are installed, go through the following steps: 
+After you've made sure that Anaconda and Git are installed, go through the following steps (if you're on Windows, use the "Anaconda Prompt").
 ### Download the repository: 
 ```bash
 git clone https://github.com/MMIV-ML/ELMED219x
