@@ -16,6 +16,8 @@ dependencies:
 - conda-forge::statsmodels
 - scipy
 - seaborn
+- scikit-image
+- imageio
 - pip:
   - pip
   - opencv-python
