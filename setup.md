@@ -1,55 +1,55 @@
-# Set up your computer
+# Sett opp din maskin
 
 ## Anaconda
-We recommend that you install Python using the [Anaconda Distribution](https://www.anaconda.com/download). Make sure to choose the "Python 3.7 version. We'll use the Conda Package Management System that comes with the Anaconda Distribution. From the [documentation](https://conda.io/docs):
+Vi anbefaler at du installerer Python via [Anaconda Distribution](https://www.anaconda.com/download). Pass på å velge "Python 3.7 version. Vi skal bruke Conda Package Management System, som kommer med Anaconda Distribution. Fra [dokumentasjonen](https://conda.io/docs):
 > Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. 
 
-After installation, run `python --version` in a terminal (in the "Anaconda Prompt" if you're on Windows). If the output contains "Python 3.7" and "Anaconda" you should be all set for the next steps.
+Etter installasjonen kjør `python --version` i et terminalvindu (i "Anaconda Prompt" om du bruker Windows). Hvis output inneholder "Python 3.7" og "Anaconda" er du klar for neste steg.
 
 ## GitHub
-The code for the course is hosted on the code sharing platform GitHub (where you're reading this). If you haven't already signed up for a GitHub account please do so now. We also recommend using the platform for your own projects throughout the course. https://github.com/join.
+Koden i kurset er hostet på kode-delingsplattformen GitHub (der du leser dette). Hvis du ikke allerede har en GitHub-konto bør du opprette en konto nå. Vi anbefaler at du bruker plattformen for dine egne prosjekter i løpet av kurset. https://github.com/join.
 
 ## Kaggle
-[Kaggle](https://www.kaggle.com) is an online community of data scientists hosting a large collection of data sets and data science competitions. It's the source for several of the data sets used in the course. The course project will be hosted on Kaggle. Create an account here: https://www.kaggle.com. 
+[Kaggle](https://www.kaggle.com) er et online felleskap av "data scientists" som arrangerer data science-konkurranser og hoster en stor samling datasett. Kursprosjektet i ELMED219 vil organiseres på Kaggle. Opprett en konto her: https://www.kaggle.com. 
 
-## Install and test the course environment
+## Installer og test kurs-omgivelsene
 
-After you've made sure that Anaconda and Git are installed, go through the following steps (if you're on Windows, use the "Anaconda Prompt").
-### Download the repository: 
+Etter at du har installert Anaconda gå gjennom følgende steg (hvis du bruker Windows, bruk "Anaconda Prompt").
+### Last ned repositoriet: 
 ```bash
 git clone https://github.com/MMIV-ML/ELMED219x
 cd ELMED219x
 ```
-### Configure the Python environment
+### Konfigurer Python-omgivelsene
 ```bash
 conda env update
 ```
 
-### Activate environment:
+### Aktiver omgivelsene:
 ```bash
 conda activate elmed219
 ```
-If you're using Linux or MacOS and the above command fails, run 
+Hvis du bruker Linux eller MacOS og kommandoen over feiler, skriv 
 ```bash 
 source ~/.bash_profile
 ``` 
-and try `conda activate elmed219` again. If that fails, activate the environment by writing `source activate elmed219` instead.
+og forsøk `conda activate elmed219` igjen. Hvis dette feiler, aktiver omgivelsene ved å skrive `source activate elmed219` istedenfor.
 
-### Install a Jupyter kernel
+### Installer en Jupyter kernel
 ```bash
 python -m ipykernel install --user --name elmed219 --display-name "ELMED219"
 ```
 
-### Test your installation
-Run through the notebook `0.0-test.ipynb` in the `notebooks` folder:
+### Test din installasjon
+Gå gjennom notebooken `0.0-test.ipynb` i `notebooks`-katalogen:
 ```bash
 cd notebooks
 jupyter notebook
 ```
-Instead of Jupyter Notebook you can use [JupyterLab](https://github.com/jupyterlab/jupyterlab): `jupyter lab`.
+Du kan også bruke [JupyterLab](https://github.com/jupyterlab/jupyterlab): `jupyter lab`.
 
-## Update
-The code and environment will be updated throughout the course. Run the following two commands regularly:
+## Oppdater
+Koden og omgivelsene oppdateres underveis i kurset. Kjør følgende kommandoer regelmessig:
 * Update code: `git pull`
 * Update environment: 
 ```bash
