@@ -13,6 +13,8 @@ The course will be based on Jupyter Notebook, a web-based environment for creati
 
 Throughout the course you'll work on notebooks containing various prepared material and coding exercises. We recommend that you make copies of our notebooks before editing them, following the naming convention `my_[name_of_notebook].ipynb`. 
 
+Some of the material is in Norwegian. Switch to the branch `eng` for English versions. 
+
 ## Table Of Contents
 
 *More be added*
