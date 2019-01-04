@@ -22,7 +22,7 @@ dependencies:
   - pip
   - opencv-python
   - kaggle
-  - xgboost
+#  - xgboost
   - graphviz
   - pandas-profiling
   - xlrd
