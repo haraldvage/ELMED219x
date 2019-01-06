@@ -10,4 +10,4 @@ __pycache__/
 .python-version
 
 # Data
-data/
+unsynceddata/
