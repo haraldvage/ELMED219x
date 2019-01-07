@@ -15,6 +15,11 @@ Koden i kurset er hostet på kode-delingsplattformen GitHub (der du leser dette)
 ## Installer og test kurs-omgivelsene
 
 Etter at du har installert Anaconda gå gjennom følgende steg (hvis du bruker Windows, bruk "Anaconda Prompt").
+
+### Installer Git
+```bash
+conda install git
+```
 ### Last ned repositoriet: 
 ```bash
 git clone https://github.com/MMIV-ML/ELMED219x
