@@ -17,10 +17,7 @@ Kurset baserer seg på Jupyter Notebook, et web-basert rammeverk for å utvikle 
 
 Gjennom kurset vil du arbeide med notebooks som inneholder diverse materiale og kode-oppgaver. Vi anbefaler at du lager kopier av våre notebooks før du editerer dem. Følg gjerne navngivningen `my_[name_of_notebook].ipynb`. 
 
-## Innhold
 
-*Mer kommer*
-
-### Kom i gang
+## Kom i gang
 * [Python, Numpy, Pandas, Matplotlib, Nibabel og mer](notebooks/0.0-test.ipynb): kjør gjennom denne notebooken for å teste at du har satt opp dine omgivelser korrekt.
 
