@@ -11,6 +11,7 @@ Her finner du kode og dokumentasjon til kurset. Mer informasjon finner du på Mi
 **Gå til [Sett opp din maskin](setup.md) for å komme i gang.**
 
 Tips: For å gå gjennom kursets notebooks interaktivt uten å måtte laste ned programvare kan du bruke https://mybinder.org/v2/gh/MMIV-ML/ELMED219x/master.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MMIV-ML/ELMED219x/master)
 
 
 # Notebooks
